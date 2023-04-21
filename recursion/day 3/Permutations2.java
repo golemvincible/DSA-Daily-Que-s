@@ -19,7 +19,7 @@ public class Permutations2 {
                 complete kr chuke hai ans le chuke hai phir backtrack kra hai
                 isliye unused hai vo
 
-                basically prev used hai that means se just pehle wali pos pr fill kr chuke
+                basically prev used hai that means isse just pehle wali pos pr fill kr chuke
                 hai to ab hum next same ko next position pr fill kr skte hai
             */
             if(used[i] || i>0 && nums[i]==nums[i-1] && !used[i-1])
