@@ -52,6 +52,7 @@ public:
 };
 
 int main(){
-    
+    char c = 1+'0';
+    cout<<c;
     return 0;
 }
