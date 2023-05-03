@@ -4,3 +4,10 @@ binaryTrees/day 1/Node.class
 binaryTrees/day 1/PreorderTraversal.class
 binaryTrees/day 1/InorderTraversal.class
 binaryTrees/day 1/IterativeInorderTraversal.class
+O2BinaryTrees/day1/InorderTraversal.class
+O2BinaryTrees/day1/IterativeInorderTraversal.class
+O2BinaryTrees/day1/IterativePostorderTraversal.class
+O2BinaryTrees/day1/IterativePreorderTraversal.class
+O2BinaryTrees/day1/Node.class
+O2BinaryTrees/day1/PreorderTraversal.class
+.gitignore
