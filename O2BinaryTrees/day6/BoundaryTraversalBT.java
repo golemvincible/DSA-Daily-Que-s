@@ -1,8 +1,17 @@
+package O2BinaryTrees.day6;
+
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.Stack;
-
+class Node {
+    Node left;
+    Node right;
+    int val;
+    public Node(int val){
+        this.val=val;
+    }
+}
 public class BoundaryTraversalBT {
     private static boolean isLeaf(Node node){
         return (node.left==null && node.right==null)?true:false;

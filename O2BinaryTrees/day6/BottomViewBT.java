@@ -1,4 +1,14 @@
+package O2BinaryTrees.day6;
+
 import java.util.*;
+class Node {
+    Node left;
+    Node right;
+    int val;
+    public Node(int val){
+        this.val=val;
+    }
+}
 class Pair2{
     int y;
     Node node;
