@@ -4,6 +4,28 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BurstBalloons {
+    private static int solveTab(List<Integer> arr,int n){
+        int[][] dp = new int[n+2][n+2];
+
+        for(int i=n;i>=1;i--){
+            for (int j = 1; j <= n; j++) {
+
+                if(i>j) continue;
+
+                int max = Integer.MIN_VALUE;
+
+                for(int k=i;k<=j;k++){
+                    int temp = dp[i][k-1] + dp[k+1][j] + arr.get(i-1) * arr.get(j+1) * arr.get(k);
+
+                    max = Math.max(temp,max);
+                }
+
+                dp[i][j] = max;
+            }
+        }
+
+        return dp[1][n];
+    }
     private static int solve(List<Integer> arr,int i,int j,int[][] dp){
         if(i>j) return 0;
 
