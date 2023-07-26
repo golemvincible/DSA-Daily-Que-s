@@ -1,6 +1,34 @@
 package O4DynamicProgramming.day10;
 
 public class LongestIncreasingSubsequence {
+    static int ans = 0;
+    public static int lengthOfLISOptimised(int[] nums) {
+        
+        // if(nums.length==1 && nums[0]==0)  return 0;
+        
+        int n = nums.length;
+        
+        //dp will store 
+        int[] dp = new int[n];  
+        
+        for(int i=0;i<n;i++)   dp[i]=1;
+        
+        for(int i=0;i<n;i++){
+            //maxi from dp
+            int maxi=0, ele = nums[i];
+            
+            for(int j=0;j<i;j++){
+                if(nums[j]<ele){
+                    //then we need to find maximum of all nums[j]<ele from their dp array
+                    maxi = Math.max(maxi,dp[j]);
+                }
+            }
+            dp[i] = dp[i] + maxi;
+            ans = Math.max(ans,dp[i]);
+        }
+        
+        return ans;
+    }
     private static int solve(int[] nums,int curr,int prv,int[][] dp){
         if(curr<0) return 0;
         
