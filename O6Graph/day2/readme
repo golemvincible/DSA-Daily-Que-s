@@ -3,4 +3,6 @@ Topo Sort problems:-
 P1. Topological Sorting
 https://www.codingninjas.com/studio/problems/topological-sorting_973003
 
-P2.
+P2. Cycle Detection in DAG (using bfs or Kahns Algo) imp :)
+https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1
+
