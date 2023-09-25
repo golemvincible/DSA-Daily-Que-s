@@ -1,4 +1,7 @@
 package O6Graph.day3;
+
+import java.util.PriorityQueue;
+
 class Node{
     int dis,r,c;
     Node(int dis,int r,int c){
