@@ -83,9 +83,9 @@ public class KruskalsAlgo {
 	    
 	    for(int i=0;i<edges.length;i++){
 	        
-	        for(int j=0;j<3;j++){
+	        
 	            q.offer(new Node(edges[i][0],edges[i][1],edges[i][2]));
-	        }
+	        
 	    }
 	    
 	    int sum=0;

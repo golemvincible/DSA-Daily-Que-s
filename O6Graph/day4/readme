@@ -7,3 +7,9 @@ P2. Disjoint Set (unionByRank, unionBySize, findPar)
 
 P3. Minimum Spanning Tree (Kruskal Algo)
 https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1
+
+P4. Number of Operations to Make Network Connected
+https://leetcode.com/problems/number-of-operations-to-make-network-connected/
+
+P5. Most Stones Removed with Same Row or Column
+https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
