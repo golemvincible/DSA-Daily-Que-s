@@ -3,4 +3,7 @@ MinimumSpanningTree/Disjoint Set and Problems
 P1. Minimum Spanning Tree (Prims Algo)
 https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1
 
-P2. Disjoint Set
+P2. Disjoint Set (unionByRank, unionBySize, findPar)
+
+P3. Minimum Spanning Tree (Kruskal Algo)
+https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1
