@@ -4,7 +4,7 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-
+// [-2,-2,-2,-1,-1,-1,0,0,0,2,2,2,2]
 public class ThreeSum {
     private static List<List<Integer>> app1(int[] nums){
         List<List<Integer>> res = new ArrayList<>();
